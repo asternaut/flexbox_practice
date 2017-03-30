@@ -3,12 +3,25 @@ body {
   padding: 0;
 }
 
+.myFlexBoxContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*justify-content: space-around;*/
+  /*align-content: space-between;*/
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  /*height: 100vh;*/
+
+}
 
 .box {
   color: white;
   font-size: 100px;
   text-align: center;
   padding: 10px;
+  width: calc(33% - 20px);
 }
 
 .box1 {
